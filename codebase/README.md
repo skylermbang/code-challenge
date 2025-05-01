@@ -14,7 +14,7 @@ GET /accounts – Get all account details
 POST /payment/:accountId – Make a payment
 
 API Documentation
-Postman Collection (Public)
+[Postman Collection (Public)](https://documenter.getpostman.com/view/44574756/2sB2j4eqJc)
 
 ### 3.Testing
 This project uses Jest and Postman to test the API.
