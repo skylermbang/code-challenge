@@ -1,0 +1,27 @@
+{
+  "compilerOptions": {
+    /* Basic Options */
+    "target": "es2016",
+    "module": "commonjs",
+    "strict": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+    "skipLibCheck": true,
+
+    /* Paths & Aliases */
+    "baseUrl": "./src",
+   "paths": {
+      "@interfaces/*": ["interfaces/*"],
+      "@controllers/*": ["controllers/*"],
+      "@routes/*": ["routes/*"],
+      "@mocks/*": ["mocks/*"],
+      "@repositories/*": ["repositories/*"],
+      "@services/*": ["services/*"]
+    }
+
+
+    /* Optional (uncomment if needed) */
+    // "outDir": "./dist",
+    // "rootDir": "./src"
+  }
+}

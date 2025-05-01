@@ -1,0 +1,28 @@
+{
+  "name": "skyler-origin-code-task",
+  "version": "1.0.0",
+  "description": "Origin Take Home Challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon --watch src --ext ts --exec \"npx tsx src/server.ts\"",
+    "dev": "nodemon --watch src --ext ts --exec \"npx tsx src/server.ts\""
+  },
+  "type": "module",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/jest": "^29.5.14",
+    "@types/node": "^22.15.3",
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.10",
+    "ts-jest": "^29.3.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
